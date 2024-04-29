@@ -7,7 +7,7 @@ Resource                      ${RENODEKEYWORDS}
 
 *** Variables ***
 ${SCRIPT}                     ${CURDIR}/test.resc
-${UART}                       sysbus.usart3
+${UART}                       sysbus.uart4
 
 
 *** Keywords ***
