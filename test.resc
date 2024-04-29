@@ -15,7 +15,7 @@ $logfile ?= $ORIGIN/artifacts/renode.log
 
 $app ?= @ecos_stm3220g_eval_plf_adc1
 
-showAnalyzer sysbus.usart3
+showAnalyzer sysbus.uart4
 
 macro feedadc
 """
@@ -23,6 +23,7 @@ macro feedadc
     sysbus.adc FeedSample 0x3A4 16 -1
     sysbus.adc FeedSample 0x5C0 17 -1
     sysbus.adc FeedSample 0x7FD 18 -1
+    sysbus.adc3 FeedSample 0x777 7 -1
 """
 
 : Since the reset macro is executed automatically by renode on a CPU

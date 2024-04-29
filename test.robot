@@ -20,5 +20,7 @@ Load Script
 Should Run Test Case
     Load Script
     Start Emulation
-    Wait For Line On Uart	PASS:<STM32 ADC test done>	timeout=30
+    Wait For Line On Uart       INFO:<Move potentiometer past 4000 to move to next test>        timeout=10
+    Execute Command             sysbus.adc3 FeedSample 4010 7 -1
+    Wait For Line On Uart       PASS:<STM32 ADC test done>      timeout=5
 
