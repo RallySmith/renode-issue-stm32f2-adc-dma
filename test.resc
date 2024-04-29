@@ -7,6 +7,11 @@ mach create $name
 
 path add $ORIGIN
 
+include @platforms/peripherals/STM32_ADC_Fixed.cs
+include @platforms/peripherals/STM32DMA_Fixed.cs
+include @platforms/peripherals/STM32_Timer_Fixed.cs
+include @platforms/peripherals/STM32_GPIOPort_Fixed.cs
+
 machine LoadPlatformDescription $ORIGIN/platforms/boards/stm3220g_eval.repl
 
 cpu PerformanceInMips 125
