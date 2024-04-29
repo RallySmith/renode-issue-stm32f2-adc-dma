@@ -33,13 +33,13 @@ changesets have not yet been applied to this repo.
 |:-----------------|:-------------------------------------------------------------------------------------------------------|:-------
 | STM32F207        | Hierarchy of ".repl" files to allow STM32F2[01][57] configurations (controllers, flash size, etc.)     | Committed
 | STM3220G-EVAL    | Initial (limited) STM32x0G-EVAL platform support (enough to allow test execution)                      | Committed
-| STM32_ADC.cs     | Renode exception: Analog.STM32_ADC.OnConversionFinished "Fatal error: Attempted to divide by zero."    | Pending
-| STM32_ADC.cs     | Allow 8- and 16-bit reads of the DataRegister (as per RM0033 Rev9 10.13)                               | Pending
-| STM32_ADC.cs     | Fix sequence index when ADC_CR2:ADON off and on transitions to avoid DMA transfer data offset mismatch | Pending
-| STM32_ADC.cs     | Add support for ADC EXTEN/EXTSEL conversion trigger                                                    | Pending
-| STM32DMA.cs      | Fix TX and RX transfer and maintain DMA pending request state                                          | Pending
-| STM32DMA.cs      | Fix DMA_SxNDTR access                                                                                  | Pending
-| STM32DMA.cs      | Fix transferredSize reset on DMA stream disable                                                        | Pending
-| STM32DMA.cs      | Fix DoPeripheralTransfer() to only increment memory when configured for such                           | Pending
-| STM32DMA.cs      | Maintain FIFOControl to allow software access                                                          | Pending
-| STM32_Timer.cs   | Add TRGO support                                                                                       | Pending
+| STM32_ADC.cs     | Renode exception: Analog.STM32_ADC.OnConversionFinished "Fatal error: Attempted to divide by zero."    | Committed
+| STM32_ADC.cs     | Allow 8- and 16-bit reads of the DataRegister (as per RM0033 Rev9 10.13)                               | Committed
+| STM32_ADC.cs     | Fix sequence index when ADC_CR2:ADON off and on transitions to avoid DMA transfer data offset mismatch | Committed
+| STM32_ADC.cs     | Add support for ADC EXTEN/EXTSEL conversion trigger                                                    | Committed
+| STM32DMA.cs      | Fix TX and RX transfer and maintain DMA pending request state                                          | Committed
+| STM32DMA.cs      | Fix DMA_SxNDTR access                                                                                  | Committed
+| STM32DMA.cs      | Fix transferredSize reset on DMA stream disable                                                        | Committed
+| STM32DMA.cs      | Fix DoPeripheralTransfer() to only increment memory when configured for such                           | Committed
+| STM32DMA.cs      | Maintain FIFOControl to allow software access                                                          | Committed
+| STM32_Timer.cs   | Add TRGO support                                                                                       | Committed
