@@ -1,4 +1,4 @@
-*** Settings ***
+#0;115;0c*** Settings ***
 Suite Setup                   Setup
 Suite Teardown                Teardown
 Test Setup                    Reset Emulation
@@ -7,7 +7,7 @@ Resource                      ${RENODEKEYWORDS}
 
 *** Variables ***
 ${SCRIPT}                     ${CURDIR}/test.resc
-${UART}                       sysbus.usart3
+${UART}                       sysbus.uart4
 
 
 *** Keywords ***
