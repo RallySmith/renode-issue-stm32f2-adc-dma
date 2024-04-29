@@ -1,4 +1,4 @@
-#0;115;0c*** Settings ***
+*** Settings ***
 Suite Setup                   Setup
 Suite Teardown                Teardown
 Test Setup                    Reset Emulation
