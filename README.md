@@ -14,7 +14,7 @@ unmodified Renode environment to exhibit the missing features.
 
 **NOTE**: The, pending, locally "fixed" models have already
 successfully run 1000s of eCos testfarm cases under Renode 1.14.0 and
-1.15.9 as well as on the real H/W platform. The specific test
+1.15.0 as well as on the real H/W platform. The specific test
 application `ecos_stm3220g_eval_plf_adc1` is provided as an ELF image
 due to the large number of source files involved and the normal eCos
 config+build world using "custom" tools that would just add workload
